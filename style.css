@@ -22,6 +22,17 @@ body {
     gap: 10px;
 }
 
+.as {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 20px;
+    background-image: url('./image/go.svg');
+    margin-left: 180px;
+    width: 40px;
+    height: 40px;
+}
+
 .icon {
     display: grid;
     gap: 25px;
