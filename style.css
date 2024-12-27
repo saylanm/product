@@ -4,14 +4,29 @@
 
 }
 
+@font-face {
+    font-family: 'TT Lakes';
+    src: url('./fonts/TTLakes-ExtraLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
 body {
     font-family: "TT Lakes", "Arial", sans-serif;
-    background-color: #e1e1e9;
+    background-color: #EAEAEA;
+    
 }
 
 .header {
-        border-top: 2px solid blueviolet;
-        background-color: white;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-bottom: 10px;
+        padding-right: 25px;
+        border-top: 2px solid #D9FFF5;
+        background: linear-gradient(#F8F8F8 100, #7E7E82 100);
+        color: #7E7E82;
+        font-size: 16px;
+        text-transform: uppercase;
     }
 
 .swiper {
@@ -41,7 +56,7 @@ body {
 
 .container--lenovo {
     background-image: url("./image/lenovo.png");
-    border: 1px solid black;
+    border: 1px solid #EAEAEA;
     background-color: #F8F8F8;
     
 
@@ -51,7 +66,7 @@ body {
     background-image: url("./image/samsung.png");
     border: none;
     background-color: #F8F8F8;
-    border: 1px solid black;
+    border: 1px solid #EAEAEA;
 
 }
 
@@ -59,7 +74,7 @@ body {
     background-image: url("./image/apple.png");
     border: none;
     background-color: #F8F8F8;
-    border: 1px solid black;
+    border: 1px solid #EAEAEA;
 
 }
 
@@ -67,7 +82,7 @@ body {
     background-image: url("./image/viewSonic.png");
     border: none;
     background-color: #F8F8F8;
-    border: 1px solid black;
+    border: 1px solid #EAEAEA;
 
 }
 
@@ -75,28 +90,28 @@ body {
     background-image: url("./image/bosch.png");
     border: none;
     background-color: #F8F8F8;
-    border: 1px solid black;
+    border: 1px solid #EAEAEA;
 }
 
 .container--hp {
     background-image: url("./image/hp.png");
     border: none;
     background-color: #F8F8F8;
-    border: 1px solid black;
+    border: 1px solid #EAEAEA;
 }
 
 .container--acer {
     background-image: url("./image/acer.png");
     border: none;
     background-color: #F8F8F8;
-    border: 1px solid black;
+    border: 1px solid #EAEAEA;
 }
 
 .container--sony {
     background-image: url("./image/sony.png");
     border: none;
     background-color: #F8F8F8;
-    border: 1px solid black;
+    border: 1px solid #EAEAEA;
 }
 
 @media (min-width: 320px) and (max-width: 768px) {
