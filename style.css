@@ -7,12 +7,16 @@
 body {
     font-family: "TT Lakes", "Arial", sans-serif;
 
+
 }
 
-.icon {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+.header {
+        border-top: 2px solid blueviolet;
+    }
+
+.swiper {
+    background-color: #e1e1e9;
+    padding: 5px;
 }
 
 .as {
@@ -35,7 +39,7 @@ body {
 }
 
 
-.block_1120px--lenovo {
+.container--lenovo {
     background-image: url("./image/lenovo.png");
     border: 1px solid black;
     background-color: #F8F8F8;
@@ -43,7 +47,7 @@ body {
 
 }
 
-.block_1120px--samsung {
+.container--samsung {
     background-image: url("./image/samsung.png");
     border: none;
     background-color: #F8F8F8;
@@ -51,7 +55,7 @@ body {
 
 }
 
-.block_1120px--apple {
+.container--apple {
     background-image: url("./image/apple.png");
     border: none;
     background-color: #F8F8F8;
@@ -59,7 +63,7 @@ body {
 
 }
 
-.block_1120px--viewSonik {
+.container--viewSonik {
     background-image: url("./image/viewSonic.png");
     border: none;
     background-color: #F8F8F8;
@@ -67,28 +71,28 @@ body {
 
 }
 
-.block_1120px--bosch {
+.container--bosch {
     background-image: url("./image/bosch.png");
     border: none;
     background-color: #F8F8F8;
     border: 1px solid black;
 }
 
-.block_1120px--hp {
+.container--hp {
     background-image: url("./image/hp.png");
     border: none;
     background-color: #F8F8F8;
     border: 1px solid black;
 }
 
-.block_1120px--acer {
+.container--acer {
     background-image: url("./image/acer.png");
     border: none;
     background-color: #F8F8F8;
     border: 1px solid black;
 }
 
-.block_1120px--sony {
+.container--sony {
     background-image: url("./image/sony.png");
     border: none;
     background-color: #F8F8F8;
@@ -102,103 +106,55 @@ body {
         margin-bottom: 50px;
 
     }
-    .block_1120px {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-    }
-    
-    .icon {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    
-    .kart {
-        background-repeat: no-repeat;
-        background-position: left;
-        width: 240px;
-        height: 72px;
-        border-radius: 5px;
-        
-    }
-    
-    
-    .block_1120px--lenovo {
-        background-image: url("./image/lenovo.png");
-        border: 1px solid black;
-        background-color: #F8F8F8;
-        
-    
-    }
-    
-    .block_1120px--samsung {
-        background-image: url("./image/samsung.png");
-        border: none;
-        background-color: #F8F8F8;
-        border: 1px solid black;
-    
-    }
-    
-    .block_1120px--apple {
-        background-image: url("./image/apple.png");
-        border: none;
-        background-color: #F8F8F8;
-        border: 1px solid black;
-    
-    }
-    
-    .block_1120px--viewSonik {
-        background-image: url("./image/viewSonic.png");
-        border: none;
-        background-color: #F8F8F8;
-        border: 1px solid black;
-    
-    }
-    
-    .block_1120px--bosch {
-        background-image: url("./image/bosch.png");
-        border: none;
-        background-color: #F8F8F8;
-        border: 1px solid black;
-    }
-    
-    .block_1120px--hp {
-        background-image: url("./image/hp.png");
-        border: none;
-        background-color: #F8F8F8;
-        border: 1px solid black;
-    }
-    
-    .block_1120px--acer {
-        background-image: url("./image/acer.png");
-        border: none;
-        background-color: #F8F8F8;
-        border: 1px solid black;
-    }
-    
-    .block_1120px--sony {
-        background-image: url("./image/sony.png");
-        border: none;
-        background-color: #F8F8F8;
-        border: 1px solid black;
-    }
+
+.swiper {
+    width: 100%;
+    max-width: 320px;
+    margin: auto;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1119px) {
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kart {
+    width: 240px;
+    height: 72px;
+    border-radius: 5px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media screen and (min-width: 768px) and (max-width: 1119px) {
  
-    .block_1120px {
+    .swiper {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
 }
 
-    .icon {
+    .swiper-wrapper {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-}  
+}   */
  /* @media screen and (min-width: 1120px) {} */
