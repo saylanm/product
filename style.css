@@ -210,10 +210,19 @@ body {
         margin-top: 0;
         padding-left: 0px;
     }
+
+    .closesd {
+        border: none;
+    }
 }
 
 
  @media screen and (min-width: 1120px) {
+
+    .closesd {
+        border: none;
+    }
+
     .swiper-pagination {
         display: none;
     }
