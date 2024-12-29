@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const initSwiper = () => {
         if (window.innerWidth <= 768 && !swiperInstance) { // Проверяем, мобильная ли версия
             swiperInstance = new Swiper('.swiper', {
-                slidesPerView: 1.2,
+                slidesPerView: 1.23,
                 spaceBetween: 10,
                 loop: true,
                 pagination: {
@@ -34,7 +34,7 @@ var content = document.querySelector('.modal');
 var img = document.querySelector('.close');
 var image = document.querySelector('.img');
 
-
+//Обаботчик события по клике открывает скрытый материал
 button.addEventListener('click', function(evt) {
     evt.preventDefault();
     content.classList.add('modal-show');
@@ -46,7 +46,7 @@ button.addEventListener('click', function(evt) {
     console.log('отрывается');
 
 })
-
+//Обаботчик события по клике закрывает скрытый материал
 button_closed.addEventListener('click', function() {
     content.classList.remove('modal-show');
     button.classList.remove('modal');

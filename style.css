@@ -28,7 +28,7 @@ body {
         padding-bottom: 10px;
         padding-right: 25px;
         border-top: 2px solid #D9FFF5;
-        background: linear-gradient(#F8F8F8 100, #7E7E82 100);
+        background: linear-gradient(#F8F8F8 100%, #7E7E82 0.01%);
         color: #7E7E82;
         font-size: 16px;
         text-transform: uppercase;
@@ -39,6 +39,7 @@ body {
     padding-bottom: 35px;
     padding-left: 5px;
     padding-right: 5px;
+
 }
 
 .as {
@@ -125,7 +126,7 @@ body {
 
 .logo {
     color: #7E7E82;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .swiper {
@@ -141,13 +142,14 @@ body {
 }
 
 .swiper-pagination-bullet {
-    background-color: rgb(0, 0, 0);
+    background-color: #B5B6BC;
+    width: 12px;
+    height: 12px;
 }
 .buttons {
     display: none;
 }
 }
-
 @media screen and (min-width: 768px) and (max-width: 1119px) {
 
     .swiper {
