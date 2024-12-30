@@ -34,7 +34,6 @@ var content = document.querySelector('.modal');
 var img = document.querySelector('.close');
 var image = document.querySelector('.img');
 
-//Обаботчик события по клике открывает скрытый материал
 button.addEventListener('click', function(evt) {
     evt.preventDefault();
     content.classList.add('modal-show');
@@ -43,10 +42,9 @@ button.addEventListener('click', function(evt) {
     button_closed.classList.remove('modal');
     img.classList.remove('modal');
     image.classList.add('modal');
-    console.log('отрывается');
 
 })
-//Обаботчик события по клике закрывает скрытый материал
+
 button_closed.addEventListener('click', function() {
     content.classList.remove('modal-show');
     button.classList.remove('modal');
@@ -54,6 +52,5 @@ button_closed.addEventListener('click', function() {
     button_closed.classList.add('modal');
     image.classList.remove('modal');
     close.classList.add('modal');
-    console.log('закрывается');
 })
 
